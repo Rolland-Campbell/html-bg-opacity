@@ -1,0 +1,39 @@
+body {
+  min-height: 100vh;
+  margin: auto;
+}
+
+header {
+  position: relative;
+  height: 30vh;
+}
+
+header::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3h6N93rmdY0kPMsABKkpAjRvgLM1vg15qUtkNs9Ap2_UQi1Qo&s);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+main {
+  height: 70vh;
+}
+
+img {
+  height: fit-content;
+  width: 100vw;
+}
+
+.box {
+  background-color: blue;
+  height: 5vh;
+  width: 5vw;
+}
